@@ -1,0 +1,120 @@
+*{
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+   cursor: wait;
+}
+
+
+.wrapper {
+   max-width: 1190px;
+   margin: 106px auto 137px;
+   background-image: linear-gradient(rgba(255, 255, 255, 0.76),rgba(255, 255, 255, 0.76)),url("../img/double_line.png");
+   background-repeat: no-repeat;
+   background-size: 100% auto;
+}
+.sub-title {
+   opacity: 0.6;
+font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #273d46;
+text-align: center;
+}
+.title {
+   font-family: 'Times New Roman';
+font-size: 36px;
+line-height: 50px;
+font-weight: 400;
+color: #273d46;
+text-align: center;
+margin: 0 205px;
+}
+.image-container {
+   margin: 87px auto 0;
+   max-width: fit-content;
+}
+.content-img {
+   border: 10px solid rgb(255, 255, 255);
+   box-shadow: 0px 15px 65px 0px rgba(15,16,16,0.15);
+}
+.content-text {
+   margin: 97px 262px 0 192px;
+}
+.content-p {
+   opacity: 0.8;
+font-family: 'Times New Roman';
+font-size: 24px;
+line-height: 40px;
+font-weight: 400;
+color: #273d46;
+margin-bottom: 62px;
+}
+.list {
+   margin-left: 189px; 
+   list-style: none;
+}
+.list-li {
+   font-family: Arial;
+font-size: 20px;
+line-height: 36px;
+font-weight: 400;
+background-image: url("../img/check.png");
+background-repeat: no-repeat;
+background-position: left center;
+padding-left: 36px;
+color: #273d46;
+}
+
+.list-li:first-of-type {
+   text-shadow: 0px 1px 0px rgba(0,0,0,0.3);
+}
+.list-li:nth-child(2) {
+   font-style: italic;
+color: #80b7b3;
+}
+.list-li:nth-child(3) {
+   font-weight: 700;
+}
+.list-li:last-of-type {
+   text-decoration: line-through
+}
+.list-li:hover{
+   color: #d55a5a; 
+   background-image: url("../img/check_icon_95.png");
+   cursor:context-menu;
+}
+.opacity03{
+   opacity: 0.3;
+}
+.btn {
+   margin-top: 59px;
+  
+   display: inline-block;
+}
+.btn-link {
+   font-family: Arial;
+font-size: 14px;
+line-height: 40px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 0.2em;
+color: #ffffff;
+text-decoration: none;
+padding: 2px 59px 2px 30px ;
+border-radius: 22px;
+display: inline-block;
+background-color: #81b7b2;
+background-image: url("../img/vector.png");
+background-repeat: no-repeat;
+background-position: right 27px  center;
+}
+.btn-link:hover{
+   background-color: #3a5856;
+}
+.btn-link:active{
+   background-color: #818181;
+}
